@@ -12,13 +12,31 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Unit Tests " Type="Folder"/>
-		<Item Name="Help Functions" Type="Folder" URL="../../Sequence/CodeModules/Help Functions">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Help Functions" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Channels.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Channels.ctl"/>
+				<Item Name="DUT.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/DUT.ctl"/>
+				<Item Name="Instrument.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Instrument.ctl"/>
+				<Item Name="Select Class Type.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Select Class Type.ctl"/>
+			</Item>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Connect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Connect OPC UA.vi"/>
+				<Item Name="Convert Resistance to Temperature.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Convert Resistance to Temperature.vi"/>
+				<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Disconnect OPC UA.vi"/>
+				<Item Name="FGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/FGV.vi"/>
+				<Item Name="Get Channels.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get Channels.vi"/>
+				<Item Name="Get VISA_Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get VISA_Class.vi"/>
+				<Item Name="GetVariablesValues.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/GetVariablesValues.vi"/>
+				<Item Name="Load Configuration.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Load Configuration.vi"/>
+				<Item Name="Lookup Fault Code.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Lookup Fault Code.vi"/>
+				<Item Name="ScreenCoordinates.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/ScreenCoordinates.vi"/>
+				<Item Name="Select Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Select Class.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
-			<Item Name="HAL.lvlib" Type="Library" URL="../../../HAL/Harware Abstraction/HAL.lvlib"/>
-			<Item Name="Interface.lvlib" Type="Library" URL="../../../HAL/Harware Abstraction/Interface/Interface.lvlib"/>
-			<Item Name="Concrete.lvlib" Type="Library" URL="../../../HAL/Concrete/Concrete.lvlib"/>
+			<Item Name="HAL.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Harware Abstraction/HAL.lvlib"/>
+			<Item Name="Interface.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Harware Abstraction/Interface/Interface.lvlib"/>
+			<Item Name="Concrete.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Concrete/Concrete.lvlib"/>
 		</Item>
 		<Item Name="OPC UA.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/OPC UA/OPC UA.lvclass"/>
 		<Item Name="PreUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PreUUT/PreUUT.lvclass"/>
@@ -108,7 +126,6 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI OPC UA Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Utility.lvlib"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="TestStand - Get Property Value.vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand - Get Property Value.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -309,6 +326,7 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="APS-7000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/APS-7000 Series/APS-7000 Series.lvlib"/>
@@ -340,6 +358,23 @@
 				<Item Name="Set Sweep Freq.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Set Sweep Freq.vi"/>
 				<Item Name="HIOKI BT4560 Sample Application.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/HIOKI BT4560 Sample Application.vi"/>
 				<Item Name="Initialize VISA.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Initialize VISA.vi"/>
+				<Item Name="HIOKI SW100X Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/HIOKI SW100X Series/HIOKI SW100X Series.lvlib"/>
+				<Item Name="HIOKI Batter_Tester Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Initialize.vi"/>
+				<Item Name="HIOKI Batter_Tester Autorange.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Autorange.vi"/>
+				<Item Name="HIOKI Batter_Tester InitCont.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester InitCont.vi"/>
+				<Item Name="HIOKI Batter_Tester Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Trigger.vi"/>
+				<Item Name="HIOKI Batter_Tester Header.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Header.vi"/>
+				<Item Name="HIOKI Batter_Tester Function.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Function.vi"/>
+				<Item Name="HIOKI Batter_Tester Read.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Read.vi"/>
+				<Item Name="HIOKI Batter_Tester Close.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Close.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Initialize.vi"/>
+				<Item Name="Configure Range.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Measurement/Configure Range.vi"/>
+				<Item Name="Configure Initiage Continuous.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Measurement/Configure Initiage Continuous.vi"/>
+				<Item Name="Configure Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Configure Trigger.vi"/>
+				<Item Name="Configure Format.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Measurement/Configure Format.vi"/>
+				<Item Name="Read(low).vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Data/Low Level/Read(low).vi"/>
+				<Item Name="Read Single Point(low).vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Data/Low Level/Read Single Point(low).vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Close.vi"/>
 				<Item Name="agn5700 Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/agn5700/agn5700.llb/agn5700 Initialize.vi"/>
 				<Item Name="agn5700 Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/agn5700/agn5700.llb/agn5700 Initialize With Options.vi"/>
 				<Item Name="agn5700 Configure Output Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/agn5700/agn5700.llb/agn5700 Configure Output Enabled.vi"/>
@@ -363,15 +398,16 @@
 				<Item Name="niDMM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Initialize.vi"/>
 				<Item Name="niDMM Read.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Read.vi"/>
 				<Item Name="niSwitch Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Close.vi"/>
-				<Item Name="niSwitch Wait For Debounce.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Wait For Debounce.vi"/>
-				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
 				<Item Name="niSwitch Connect Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Connect Channels.vi"/>
 				<Item Name="niSwitch Connect Channels (Single).vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Connect Channels (Single).vi"/>
+				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
 				<Item Name="niSwitch Connect Channels (Multiple).vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Connect Channels (Multiple).vi"/>
+				<Item Name="niSwitch Wait For Debounce.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Wait For Debounce.vi"/>
 				<Item Name="niSwitch Disconnect All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Disconnect All Channels.vi"/>
-				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
 				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
+				<Item Name="niSwitch Initialize With Topology.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Initialize With Topology.vi"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -384,10 +420,6 @@
 			<Item Name="nidmm_64.dll" Type="Document" URL="nidmm_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="NI 6514.lvclass" Type="LVClass" URL="../../../HAL/builds/Concrete.lvlibp/Concrete/DigitalIO/NI 6514/NI 6514.lvclass"/>
-			<Item Name="AIO.lvclass" Type="LVClass" URL="../../../HAL/builds/Hardware Abstraction.lvlibp/AnalogIO/AIO.lvclass"/>
-			<Item Name="Switch.lvclass" Type="LVClass" URL="../../../HAL/builds/Hardware Abstraction.lvlibp/Switch/Switch.lvclass"/>
 			<Item Name="niswitch_64.dll" Type="Document" URL="niswitch_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
