@@ -23,7 +23,7 @@
 				<Item Name="Connect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Connect OPC UA.vi"/>
 				<Item Name="Convert Resistance to Temperature.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Convert Resistance to Temperature.vi"/>
 				<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Disconnect OPC UA.vi"/>
-				<Item Name="FGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/FGV.vi"/>
+				<Item Name="GetSetFGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/GetSetFGV.vi"/>
 				<Item Name="Get Channels.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get Channels.vi"/>
 				<Item Name="Get VISA_Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get VISA_Class.vi"/>
 				<Item Name="GetVariablesValues.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/GetVariablesValues.vi"/>
@@ -43,6 +43,7 @@
 		<Item Name="TestExec.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/TestExec/TestExec.lvclass"/>
 		<Item Name="PostUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PostUUT/PostUUT.lvclass"/>
 		<Item Name="INI Config.ini" Type="Document" URL="../../Config/INI Config.ini"/>
+		<Item Name="Check objects.vi" Type="VI" URL="../../Sequence/CodeModules/Check objects.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="TestStand - Get Property Value (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand - Get Property Value (Boolean Array).vi"/>
