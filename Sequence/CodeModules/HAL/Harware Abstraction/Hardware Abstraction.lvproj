@@ -38,14 +38,29 @@
 				<Item Name="Chr19020 Test Start.vi" Type="VI" URL="/&lt;instrlib&gt;/Chr19020/Chr19020.llb/Chr19020 Test Start.vi"/>
 				<Item Name="Chr19020 Test Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/Chr19020/Chr19020.llb/Chr19020 Test Stop.vi"/>
 				<Item Name="Chr19020.dll" Type="Document" URL="/&lt;instrlib&gt;/Chr19020/Chr19020.dll"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Close.vi"/>
+				<Item Name="Configure Format.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Measurement/Configure Format.vi"/>
+				<Item Name="Configure Initiage Continuous.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Measurement/Configure Initiage Continuous.vi"/>
+				<Item Name="Configure Range.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Measurement/Configure Range.vi"/>
+				<Item Name="Configure Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Configure/Configure Trigger.vi"/>
 				<Item Name="Equivalent Circuit.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Equivalent Circuit.vi"/>
 				<Item Name="Fitting on a Circle.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Fitting on a Circle.vi"/>
 				<Item Name="Freq Range Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Freq Range Limit.vi"/>
 				<Item Name="Graph Scale Fit.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Graph Scale Fit.vi"/>
+				<Item Name="HIOKI Batter_Tester Autorange.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Autorange.vi"/>
+				<Item Name="HIOKI Batter_Tester Close.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Close.vi"/>
+				<Item Name="HIOKI Batter_Tester Function.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Function.vi"/>
+				<Item Name="HIOKI Batter_Tester Header.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Header.vi"/>
+				<Item Name="HIOKI Batter_Tester InitCont.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester InitCont.vi"/>
+				<Item Name="HIOKI Batter_Tester Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Initialize.vi"/>
+				<Item Name="HIOKI Batter_Tester Read.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Read.vi"/>
+				<Item Name="HIOKI Batter_Tester Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/LVBT3562_BT3563E/HIOKI Batter_Tester Driver_V13sp1_E.llb/HIOKI Batter_Tester Trigger.vi"/>
 				<Item Name="HIOKI BT4560 Application.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/HIOKI BT4560 Application.vi"/>
 				<Item Name="HIOKI BT4560 Sample Application.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/HIOKI BT4560 Sample Application.vi"/>
 				<Item Name="HIOKI BT4560.lvlib" Type="Library" URL="/&lt;instrlib&gt;/HIOKI BT4560/HIOKI BT4560.lvlib"/>
+				<Item Name="HIOKI SW100X Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/HIOKI SW100X Series/HIOKI SW100X Series.lvlib"/>
 				<Item Name="Initialize VISA.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Initialize VISA.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Initialize.vi"/>
 				<Item Name="Meas Err.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Meas Err.vi"/>
 				<Item Name="Meas Temp Err.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Meas Temp Err.vi"/>
 				<Item Name="Measurement Control.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Measurement Control.vi"/>
@@ -71,6 +86,8 @@
 				<Item Name="niSwitch IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch IVI Error Converter.vi"/>
 				<Item Name="niSwitch Topologies.ctl" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Topologies.ctl"/>
 				<Item Name="niSwitch Wait For Debounce.vi" Type="VI" URL="/&lt;instrlib&gt;/niSwitch/niSwitch.llb/niSwitch Wait For Debounce.vi"/>
+				<Item Name="Read Single Point(low).vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Data/Low Level/Read Single Point(low).vi"/>
+				<Item Name="Read(low).vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI DM727X Series/Public/Data/Low Level/Read(low).vi"/>
 				<Item Name="Set Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Set Measurement.vi"/>
 				<Item Name="Set Sweep Freq.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Set Sweep Freq.vi"/>
 				<Item Name="Sweep Freq Meas.vi" Type="VI" URL="/&lt;instrlib&gt;/HIOKI BT4560/Example/SUB VI/Sweep Freq Meas.vi"/>

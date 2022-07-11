@@ -11,37 +11,46 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Unit Tests " Type="Folder"/>
 		<Item Name="Help Functions" Type="Folder">
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Channels.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Channels.ctl"/>
-				<Item Name="DUT.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/DUT.ctl"/>
+				<Item Name="DIO.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/DIO.ctl"/>
 				<Item Name="Instrument.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Instrument.ctl"/>
 				<Item Name="Select Class Type.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Select Class Type.ctl"/>
+				<Item Name="RelayMode.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/RelayMode.ctl"/>
+				<Item Name="MsgData.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/MsgData.ctl"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Connect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Connect OPC UA.vi"/>
-				<Item Name="Convert Resistance to Temperature.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Convert Resistance to Temperature.vi"/>
 				<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Disconnect OPC UA.vi"/>
-				<Item Name="GetSetFGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/GetSetFGV.vi"/>
-				<Item Name="Get Channels.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get Channels.vi"/>
-				<Item Name="Get VISA_Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get VISA_Class.vi"/>
-				<Item Name="GetVariablesValues.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/GetVariablesValues.vi"/>
 				<Item Name="Load Configuration.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Load Configuration.vi"/>
-				<Item Name="Lookup Fault Code.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Lookup Fault Code.vi"/>
-				<Item Name="ScreenCoordinates.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/ScreenCoordinates.vi"/>
+				<Item Name="Convert Resistance to Temperature.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Convert Resistance to Temperature.vi"/>
+				<Item Name="Get VISA_Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get VISA_Class.vi"/>
+				<Item Name="Set UIPosition.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Set UIPosition.vi"/>
+				<Item Name="Switch Relays.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Switch Relays.vi"/>
+				<Item Name="DAQ DO.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/DAQ DO.vi"/>
 				<Item Name="Select Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Select Class.vi"/>
+				<Item Name="SetGetFGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/SetGetFGV.vi"/>
 			</Item>
+		</Item>
+		<Item Name="Wrapper" Type="Folder">
+			<Item Name="DMM.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/DMM.vi"/>
+			<Item Name="SwitchedDMM.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/SwitchedDMM.vi"/>
+			<Item Name="ACIR.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/ACIR.vi"/>
+			<Item Name="SwitchedACIR.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/SwitchedACIR.vi"/>
+			<Item Name="HiPOT.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/HiPOT.vi"/>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
 			<Item Name="HAL.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Harware Abstraction/HAL.lvlib"/>
 			<Item Name="Interface.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Harware Abstraction/Interface/Interface.lvlib"/>
 			<Item Name="Concrete.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Concrete/Concrete.lvlib"/>
 		</Item>
-		<Item Name="OPC UA.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/OPC UA/OPC UA.lvclass"/>
-		<Item Name="PreUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PreUUT/PreUUT.lvclass"/>
-		<Item Name="TestExec.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/TestExec/TestExec.lvclass"/>
-		<Item Name="PostUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PostUUT/PostUUT.lvclass"/>
+		<Item Name="OPCUA" Type="Folder">
+			<Item Name="OPC UA.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/OPC UA/OPC UA.lvclass"/>
+			<Item Name="PreUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PreUUT/PreUUT.lvclass"/>
+			<Item Name="TestExec.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/TestExec/TestExec.lvclass"/>
+			<Item Name="PostUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PostUUT/PostUUT.lvclass"/>
+		</Item>
 		<Item Name="INI Config.ini" Type="Document" URL="../../Config/INI Config.ini"/>
 		<Item Name="Check objects.vi" Type="VI" URL="../../Sequence/CodeModules/Check objects.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -424,6 +433,7 @@
 			<Item Name="niswitch_64.dll" Type="Document" URL="niswitch_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="user32.dll" Type="Document" URL="../../../../Windows/System32/user32.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -17,4 +17,5 @@
 	<Item Name="Sim DMM.lvclass" Type="LVClass" URL="../Sim DMM/Sim DMM.lvclass"/>
 	<Item Name="Sim HiPOT.lvclass" Type="LVClass" URL="../Sim HiPOT/Sim HiPOT.lvclass"/>
 	<Item Name="Sim PS.lvclass" Type="LVClass" URL="../Sim PS/Sim PS.lvclass"/>
+	<Item Name="Sim Switch.lvclass" Type="LVClass" URL="../Sim Switch/Sim Switch.lvclass"/>
 </Library>
