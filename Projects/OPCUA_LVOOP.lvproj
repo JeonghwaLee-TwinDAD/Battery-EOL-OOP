@@ -21,6 +21,7 @@
 				<Item Name="MsgData.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/MsgData.ctl"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Get Channels.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get Channels.vi"/>
 				<Item Name="Connect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Connect OPC UA.vi"/>
 				<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Disconnect OPC UA.vi"/>
 				<Item Name="Load Configuration.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Load Configuration.vi"/>
@@ -33,7 +34,7 @@
 				<Item Name="SetGetFGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/SetGetFGV.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Wrapper" Type="Folder">
+		<Item Name="Wrappers" Type="Folder">
 			<Item Name="DMM.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/DMM.vi"/>
 			<Item Name="SwitchedDMM.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/SwitchedDMM.vi"/>
 			<Item Name="ACIR.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/ACIR.vi"/>
@@ -52,7 +53,6 @@
 			<Item Name="PostUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PostUUT/PostUUT.lvclass"/>
 		</Item>
 		<Item Name="INI Config.ini" Type="Document" URL="../../Config/INI Config.ini"/>
-		<Item Name="Check objects.vi" Type="VI" URL="../../Sequence/CodeModules/Check objects.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="TestStand - Get Property Value (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand - Get Property Value (Boolean Array).vi"/>
