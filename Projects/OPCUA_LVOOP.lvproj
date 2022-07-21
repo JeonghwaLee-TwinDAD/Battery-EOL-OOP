@@ -11,35 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Help Functions" Type="Folder">
-			<Item Name="Controls" Type="Folder">
-				<Item Name="Channels.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Channels.ctl"/>
-				<Item Name="DIO.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/DIO.ctl"/>
-				<Item Name="Instrument.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Instrument.ctl"/>
-				<Item Name="Select Class Type.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/Select Class Type.ctl"/>
-				<Item Name="RelayMode.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/RelayMode.ctl"/>
-				<Item Name="MsgData.ctl" Type="VI" URL="../../Sequence/CodeModules/Help Functions/Controls/MsgData.ctl"/>
-			</Item>
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="Get Channels.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get Channels.vi"/>
-				<Item Name="Connect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Connect OPC UA.vi"/>
-				<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Disconnect OPC UA.vi"/>
-				<Item Name="Load Configuration.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Load Configuration.vi"/>
-				<Item Name="Convert Resistance to Temperature.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Convert Resistance to Temperature.vi"/>
-				<Item Name="Get VISA_Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Get VISA_Class.vi"/>
-				<Item Name="Set UIPosition.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Set UIPosition.vi"/>
-				<Item Name="Switch Relays.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Switch Relays.vi"/>
-				<Item Name="DAQ DO.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/DAQ DO.vi"/>
-				<Item Name="Select Class.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/Select Class.vi"/>
-				<Item Name="SetGetFGV.vi" Type="VI" URL="../../Sequence/CodeModules/Help Functions/SubVIs/SetGetFGV.vi"/>
-			</Item>
+		<Item Name="Help Functions" Type="Folder" URL="../../Sequence/CodeModules/Help Functions">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Wrappers" Type="Folder">
-			<Item Name="DMM.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/DMM.vi"/>
-			<Item Name="SwitchedDMM.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/SwitchedDMM.vi"/>
-			<Item Name="ACIR.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/ACIR.vi"/>
-			<Item Name="SwitchedACIR.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/SwitchedACIR.vi"/>
-			<Item Name="HiPOT.vi" Type="VI" URL="../../Sequence/CodeModules/Wrapper/HiPOT.vi"/>
+		<Item Name="Wrapper" Type="Folder" URL="../../Sequence/CodeModules/Wrapper">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Hardware" Type="Folder">
 			<Item Name="HAL.lvlib" Type="Library" URL="../../Sequence/CodeModules/HAL/Harware Abstraction/HAL.lvlib"/>
