@@ -27,8 +27,10 @@
 			<Item Name="PreUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PreUUT/PreUUT.lvclass"/>
 			<Item Name="TestExec.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/TestExec/TestExec.lvclass"/>
 			<Item Name="PostUUT.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/PostUUT/PostUUT.lvclass"/>
+			<Item Name="Ignition.lvclass" Type="LVClass" URL="../../Sequence/CodeModules/Ignition/Ignition.lvclass"/>
 		</Item>
 		<Item Name="INI Config.ini" Type="Document" URL="../../Config/INI Config.ini"/>
+		<Item Name="Application Config.ini" Type="Document" URL="../../Config/Application Config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="TestStand - Get Property Value (Boolean Array).vi" Type="VI" URL="/&lt;vilib&gt;/addons/TestStand/_TSUtility.llb/TestStand - Get Property Value (Boolean Array).vi"/>
@@ -313,6 +315,8 @@
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="APS-7000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/APS-7000 Series/APS-7000 Series.lvlib"/>
